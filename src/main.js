@@ -3,7 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import ToastComponent from './components/toast'
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
+
+Vue.use(iView);
 
 Vue.config.productionTip = false
 const Toast = {}
@@ -38,4 +41,4 @@ Toast.install = function (Vue) {
     }
 }
 
-export default Toast
+export default Toast 

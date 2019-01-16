@@ -8,7 +8,7 @@
 # 下载包
 cnpm install
 
-# 启动项目localhost:8080
+# 启动项目localhost:9988
 npm run dev
 
 # 打包项目
